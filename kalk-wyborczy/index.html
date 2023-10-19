@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <h1>kalkulator wyborczy</h1>
+
+      <label for="grName">Nazwa ugrupowania: <input type="text" /> </label>
+
+      <label for="coalicion"
+        >Czy jest koalicją:
+        <input type="checkbox" name="coalicion" id="coalicion" value=""
+      /></label>
+
+      <label for="votesNumber">Ilość głosów:<input type="text" /></label>
+      <label for="btn">
+        <input type="button" value="Dodaj kolejne ugrupowanie" id="buttonAdd" class="button" />
+        <input type="submit" value="Sprawdx wynik procentowy" id="btn" class="button" />
+      </label>
+    </form>
+
+    <ol id="list">
+      <li><b>WIFI</b> Partia jest koalicją, ilośc głosów: <b>1276</b></li>
+      <li><b>LTE</b> Partia nie jest koalicją, ilośc głosów: <b>1790</b></li>
+      <li><b>UYT</b> Partia nie jest koalicją, ilośc głosów: <b>809</b></li>
+      <li><b>ASSA</b> Partia jest koalicją, ilośc głosów: <b>80</b></li>
+    </ol>
+
+    <div id="divTable">
+      <h3>Wyniki wyborów</h3>
+      <table>
+        <tr>
+          <th>LP</th>
+          <th>Nazwa ugrupowania</th>
+          <th>Próg wyborczy (%)</th>
+          <th>Ilośc głosów</th>
+          <th>Wynik procentowy</th>
+        </tr>
+        <tr class="green">
+          <td>1</td>
+          <td>WIFI</td>
+          <td>8%</td>
+          <td>1276</td>
+          <td>33.30</td>
+        </tr>
+        <tr class="green">
+          <td>2</td>
+          <td>LTE</td>
+          <td>5%</td>
+          <td>1790</td>
+          <td>46.30</td>
+        </tr>
+        <tr class="green">
+          <td>3</td>
+          <td>UYT</td>
+          <td>5%</td>
+          <td>809</td>
+          <td>21.30</td>
+        </tr>
+        <tr class="red">
+          <td>4</td>
+          <td>ASAA</td>
+          <td>8%</td>
+          <td>80</td>
+          <td>1.40</td>
+        </tr>
+      </table>
+    </div>
+    <footer>&copy; Me</footer>
+  </body>
+</html>

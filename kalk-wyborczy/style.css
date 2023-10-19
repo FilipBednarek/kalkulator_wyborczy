@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#divTable,
+#list {
+  margin: 3rem;
+  display: grid;
+  justify-content: center;
+}
+input {
+  margin: 0.3rem;
+}
+
+.button {
+  border-radius: 9px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid rgb(90, 86, 86);
+  border-spacing: 0;
+}
+th {
+  background-color: rgb(214, 212, 212);
+}
+.green {
+  background-color: rgb(167, 228, 167);
+}
+.red {
+  background-color: rgb(228, 150, 150);
+}
